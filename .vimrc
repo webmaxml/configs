@@ -192,52 +192,52 @@ inoremap jj <c-c>
 " <<{ vim snippets
 
 nnoremap <localleader>vc I"<space><c-c>
-nnoremap <localleader>vu ^2x<space><c-c>
+nnoremap <localleader>vC ^2x<space><c-c>
 nnoremap <localleader>vh I"<space><<{<space>
-nnoremap <localleader>ve I"<space>}>><c-c>
+nnoremap <localleader>vH I"<space>}>><c-c>
 
 " }>>
 
 " <<{ txt snippets
 
 nnoremap <localleader>th I<<{<space>
-nnoremap <localleader>te I}>><c-c>
+nnoremap <localleader>tH I}>><c-c>
 
 " }>>
 
 " <<{ html snippets
 
 nnoremap <localleader>hc I<!--<space><c-c>A<space>--><c-c>
-nnoremap <localleader>hu ^5x$3h4x
+nnoremap <localleader>hC ^5x$3h4x
 nnoremap <localleader>hh I<!--<space><<{<space><space>--><c-c>3hi
-nnoremap <localleader>he I<!--<space>}>><space>--><c-c>
+nnoremap <localleader>hH I<!--<space>}>><space>--><c-c>
 
 " }>>
 
 " <<{ sass snippets
 
 nnoremap <localleader>sc I//<space><c-c>
-nnoremap <localleader>su ^3x
+nnoremap <localleader>sc ^3x
 nnoremap <localleader>sh I//<space><<{<space>
-nnoremap <localleader>se I//<space>}>><c-c>
+nnoremap <localleader>sH I//<space>}>><c-c>
 
 " }>>
 
 " <<{ css snippets
 
 nnoremap <localleader>cc I/*<space><c-c>A<space>*/<c-c>
-nnoremap <localleader>cu ^3x$2h3x
+nnoremap <localleader>cC ^3x$2h3x
 nnoremap <localleader>ch I/*<space><<{<space><space>*/<c-c>2hi
-nnoremap <localleader>ce I/*<space>}>><space>*/<c-c>
+nnoremap <localleader>cH I/*<space>}>><space>*/<c-c>
 
 " }>>
 
 " <<{ javascript snippets
 
 nnoremap <localleader>jc I//<space><c-c>
-nnoremap <localleader>ju ^3x
+nnoremap <localleader>jC ^3x
 nnoremap <localleader>jh I//<space><<{<space>
-nnoremap <localleader>je I//<space>}>><c-c>
+nnoremap <localleader>jH I//<space>}>><c-c>
 nnoremap <localleader>jbc :read ~/.vim/snippets/hub_content.txt<cr>
 nnoremap <localleader>jbb :read ~/.vim/snippets/hub_block.txt<cr>
 nnoremap <localleader>jbi o{ name: '', desc: '', link: '' },<c-c>23h
@@ -264,6 +264,4 @@ command! BD call fzf#run(fzf#wrap({
 \ }))
 
 " }>>
-
-
 
