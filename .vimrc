@@ -162,8 +162,8 @@ nnoremap <CR> o<C-c>
 nnoremap <leader>d :BD<cr>
 nnoremap <leader>b :Buffers<CR>
 nnoremap <leader>c :BLines<cr>
-nnoremap <leader>e :NERDTreeToggle<CR>
-" nnoremap <leader>e :RangerNewTab<cr>
+" nnoremap <leader>e :NERDTreeToggle<CR>
+nnoremap <leader>e :Ranger<cr>
 nnoremap <leader><leader> za
 nnoremap <leader>h <C-w><C-h>
 nnoremap <leader>j <C-w><C-j>
