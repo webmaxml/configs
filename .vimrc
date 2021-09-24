@@ -3,14 +3,10 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'mattn/emmet-vim'
-Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
-Plug 'francoiscabrol/ranger.vim'
 
 call plug#end()
-
-let g:ranger_map_keys = 0
 
 " }>>
 
@@ -162,8 +158,7 @@ nnoremap <CR> o<C-c>
 nnoremap <leader>d :BD<cr>
 nnoremap <leader>b :Buffers<CR>
 nnoremap <leader>c :BLines<cr>
-" nnoremap <leader>e :NERDTreeToggle<CR>
-nnoremap <leader>e :Ranger<cr>
+nnoremap <leader>r :Rg<cr>
 nnoremap <leader><leader> za
 nnoremap <leader>h <C-w><C-h>
 nnoremap <leader>j <C-w><C-j>
@@ -264,4 +259,6 @@ command! BD call fzf#run(fzf#wrap({
 \ }))
 
 " }>>
+
+
 
