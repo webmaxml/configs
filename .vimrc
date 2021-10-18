@@ -88,7 +88,7 @@ set statusline+=\    " space
 " number of spaces for <tab>
 set tabstop=2
 
-" use the spaces instead of tab in insert mode
+" use spaces instead of tab in insert mode
 set expandtab
 
 " number of spaces to use when using >>/<<
@@ -212,7 +212,7 @@ nnoremap <localleader>hH I<!--<space>}>><space>--><c-c>
 " <<{ sass snippets
 
 nnoremap <localleader>sc I//<space><c-c>
-nnoremap <localleader>sc ^3x
+nnoremap <localleader>sC ^3x
 nnoremap <localleader>sh I//<space><<{<space>
 nnoremap <localleader>sH I//<space>}>><c-c>
 
