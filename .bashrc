@@ -116,8 +116,16 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PATH=$PATH:/home/webmaxml/static/scripts
+scripts_path=${HOME}/static/scripts
+
 export EDITOR=vim
 export RANGER_LOAD_DEFAULT_RC=false
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+# install ruby gems to ~/gems
+export GEM_HOME="$HOME/gems"
+gems_path=${HOME}/gems/bin
+
+# PATH
+export PATH=$gems_path:$PATH:$scripts_path

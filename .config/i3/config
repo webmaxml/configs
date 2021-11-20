@@ -3,16 +3,16 @@
 
 set $mod Mod1
 
-set $ws1 "1. "
-set $ws2 "2. "
+set $ws1 "1. "
+set $ws2 "2. "
 set $ws3 "3. "
-set $ws4 "4"
+set $ws4 "4. "
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
-set $ws9 "9. "
-set $ws10 "10. "
+set $ws9 "9"
+set $ws10 "10. "
 
 
 # ---------- main config
@@ -191,7 +191,7 @@ exec --no-startup-id setxkbmap -model "pc105" -layout "us,ru" -option "ctrl:noca
 bindsym $mod+slash exec pkill -SIGRTMIN+11 i3blocks
 
 # set bg image
-exec_always --no-startup-id feh --bg-scale /home/webmaxml/static/pictures/city5.jpg
+exec_always --no-startup-id feh --bg-scale /home/webmaxml/static/pictures/halloween2.jpg
 
 # execute compton for fading and opacity
 exec compton --backend glx --vsync --fading --fade-delta=3
