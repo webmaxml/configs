@@ -1,3 +1,5 @@
+# ~/.fzf.bash
+
 # Setup fzf
 # ---------
 if [[ ! "$PATH" == */home/webmaxml/.fzf/bin* ]]; then

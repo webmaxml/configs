@@ -1,0 +1,23 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "editor.tabSize": 2,
+    "editor.suggest.showWords": false,
+    "files.eol": "\n",
+    "breadcrumbs.enabled": true,
+    "explorer.autoReveal": false,
+    "eslint.options": { 
+        // "ignorePattern": ["dist"]
+    },
+    "eslint.alwaysShowStatus": true,
+    "eslint.codeAction.showDocumentation": {
+        "enable": true
+    },
+    "emmet.extensionsPath": [
+        "C:/Users/webmaxml/AppData/Roaming/Code/User/emmet"
+    ],
+    "emmet.includeLanguages": {
+        "plaintext": "html"
+    }
+}

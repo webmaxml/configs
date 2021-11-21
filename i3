@@ -1,3 +1,5 @@
+# ~/.config/i3/config
+
 # ---------- variables
 
 
@@ -191,13 +193,10 @@ exec --no-startup-id setxkbmap -model "pc105" -layout "us,ru" -option "ctrl:noca
 bindsym $mod+slash exec pkill -SIGRTMIN+11 i3blocks
 
 # set bg image
-exec_always --no-startup-id feh --bg-scale /home/webmaxml/static/pictures/halloween2.jpg
+exec_always --no-startup-id feh --bg-scale /home/webmaxml/static/pictures/city1.jpg
 
 # execute compton for fading and opacity
 exec compton --backend glx --vsync --fading --fade-delta=3
-
-# udiskie for auto mounting usb devices
-exec udiskie --tray
 
 # startup applications
 
