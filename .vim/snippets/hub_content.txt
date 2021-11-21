@@ -1,0 +1,18 @@
+// <<{ foldername
+
+    foldername: [
+
+  // <<{ mix
+
+      {
+        header: 'mix',
+        items: [
+          { name: '', desc: '', link: '' },
+        ]
+      },
+
+  // }>>
+
+    ],
+
+// }>>
