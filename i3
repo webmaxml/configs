@@ -196,7 +196,8 @@ bindsym $mod+slash exec pkill -SIGRTMIN+11 i3blocks
 exec_always --no-startup-id feh --bg-scale /home/webmaxml/static/pictures/city1.jpg
 
 # execute compton for fading and opacity
-exec compton --backend glx --vsync --fading --fade-delta=3
+#exec compton --backend glx --vsync --fading --fade-delta=3
+exec compton
 
 # startup applications
 
