@@ -155,34 +155,48 @@ let maplocalleader=";"
 
 " <<{ normal mode mappings
 
+nnoremap <leader>q :q<CR>
+nnoremap <leader>w :w<CR>
+
 nnoremap <CR> o<C-c>
 
-nnoremap <leader>d :BD<cr>
-nnoremap <leader>b :Buffers<CR>
-nnoremap <leader>c :BLines<cr>
-nnoremap <leader>r :Rg<cr>
-nnoremap <leader><leader> za
-nnoremap <leader>h <C-w><C-h>
-nnoremap <leader>j <C-w><C-j>
-nnoremap <leader>k <C-w><C-k>
-nnoremap <leader>l <C-w><C-l>
-nnoremap <leader>m zm
-nnoremap <leader>n :noh<CR>
-nnoremap <leader>p :Rg<cr>
-nnoremap <leader>q :q<CR>
 nnoremap <leader>s :Files<cr>
-nnoremap <leader>u ~h
-nnoremap <leader>w :w<CR>
-nnoremap <leader>z :wqa<CR>
-nnoremap <leader>; $
+nnoremap <leader>r :Rg<cr>
+nnoremap <leader>c :BLines<cr>
+
+nnoremap <leader>n :noh<CR>
+
 nnoremap <leader>. :bn<CR>
 nnoremap <leader>, :bp<CR>
+
+nnoremap <leader>yiw "ayiw
+nnoremap <leader>yaw "ayaw
+nnoremap <leader>yy "ayy
+
+nnoremap <leader>diw "adiw
+nnoremap <leader>daw "adaw
+nnoremap <leader>dd "add
+
+nnoremap <leader>p "ap
+
+nnoremap <leader><leader> za
+nnoremap <leader>m zm
+
+"nnoremap <leader>b :Buffers<CR>
+"nnoremap <leader>d :BD<cr>
+"nnoremap <leader>h <C-w><C-h>
+"nnoremap <leader>j <C-w><C-j>
+"nnoremap <leader>k <C-w><C-k>
+"nnoremap <leader>l <C-w><C-l>
+"nnoremap <leader>u ~h
+"nnoremap <leader>z :wqa<CR>
+"nnoremap <leader>; $
 
 " }>>
 
 " <<{ insert mode mappings
 
-inoremap jj <c-c>
+"inoremap jj <c-c>
 
 " }>>
 

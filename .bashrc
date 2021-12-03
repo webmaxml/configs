@@ -118,16 +118,27 @@ if ! shopt -oq posix; then
   fi
 fi
 
-scripts_path=${HOME}/static/scripts
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 export EDITOR=vim
 export RANGER_LOAD_DEFAULT_RC=false
-
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
-
-# install ruby gems to ~/gems
-export GEM_HOME="$HOME/gems"
-gems_path=${HOME}/gems/bin
+export SCRIPTS_PATH=${HOME}/static/scripts
+export CHEATS_PATH=${HOME}/static/cheatsheets/cheatsheets
 
 # PATH
-export PATH=$gems_path:$PATH:$scripts_path
+export PATH=${PATH}:${SCRIPTS_PATH}
+
+alias cha='ch algorithms'
+alias chbash='ch bash'
+alias chcss='ch css'
+alias chdocker='ch docker'
+alias chhtml='ch html'
+alias chhttp='ch http'
+alias chjs='ch js'
+alias chl='ch linux'
+alias chnet='ch net'
+alias chnode='ch nodejs'
+alias chphp='ch php'
+alias chsql='ch sql'
+alias chu='ch utilities'
+alias chvim='ch vim'

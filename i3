@@ -8,8 +8,8 @@ set $mod Mod1
 set $ws1 "1. "
 set $ws2 "2. "
 set $ws3 "3. "
-set $ws4 "4. "
-set $ws5 "5"
+set $ws4 "4. "
+set $ws5 "5. "
 set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
@@ -28,7 +28,7 @@ floating_modifier $mod
 # hide borders adjacent to the screen edges
 hide_edge_borders smart
 
-gaps inner 15
+gaps inner 30
 # gaps outer 15
 
 # disable title bar
@@ -162,7 +162,7 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-bindsym $mod+p exec --no-startup-id maim --select ~/static/pm/$(date +%s).jpg
+bindsym $mod+p exec --no-startup-id maim --select ~/static/pictures/screenshots/$(date +%s).jpg
 
 
 # ---------- assigning to workspaces
@@ -204,6 +204,7 @@ exec compton
 # ---------- panel
 
 set $accent #40e6ff
+#set $accent #8b8e94
 set $text #ffffff
 set $unfocused #000000
 set $indicator #00ff00
@@ -225,7 +226,7 @@ bar {
  		# border background text
  		focused_workspace $unfocused $unfocused $accent
  		inactive_workspace $unfocused $unfocused $text
- 		urgent_workspace #00ff00 #00ff00 #ffffff
+ 		urgent_workspace $indicator $indicator $text
  	}
  }
 
